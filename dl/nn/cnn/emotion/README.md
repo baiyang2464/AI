@@ -16,7 +16,7 @@
 
   ​	-**model**&emsp; (Directory of training model)
 
-  ​	-lassifier**&emsp;(Directory of face detector of openVC)
+  ​	-**lassifier**&emsp;(Directory of face detector of openVC)
 
   ​	-**jaffe**&emsp;(Directory of source pictures)
 
