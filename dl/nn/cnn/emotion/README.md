@@ -4,21 +4,21 @@
 
   **emotion**
 
-  ​	getCsv.py &emsp;&emsp;(Make data sets with png pictures )
+  ​	-getCsv.py&emsp;(Make data sets with png pictures )
 
-  ​	forward.py&emsp;(Forward propagation)
+  ​	-forward.py&emsp;(Forward propagation)
 
-  ​	backward.py	&emsp;(Backward propagation)
+  ​	-backward.py&emsp;(Backward propagation)
 
-  ​	test.py&emsp;(testing and get accuracy)
+  ​	-test.py&emsp;(testing and get accuracy)
 
-  ​	face.csv&emsp;(derived from getCsv.py)
+  ​	-face.csv&emsp;(derived from getCsv.py)
 
-  ​	**model**&emsp; (Directory of training model)
+  ​	-**model**&emsp; (Directory of training model)
 
-  ​	**classifier**&emsp;(Directory of face detector of openVC)
+  ​	-lassifier**&emsp;(Directory of face detector of openVC)
 
-  ​	**jaffe**&emsp;(Directory of source pictures)
+  ​	-**jaffe**&emsp;(Directory of source pictures)
 
 + Jaffe Database Download
 
@@ -41,7 +41,7 @@
   + `python backward.py`
   + `python test.py`
 
-+ accurary
++ accuracy
 
   %65(±10)
 
