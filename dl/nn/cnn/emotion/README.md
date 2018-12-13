@@ -4,7 +4,7 @@
 
   **emotion**
 
-  ​	-getCsv.py&emsp;(Make data sets with png pictures )
+  ​	-[getCsv.py](./getCsv.py)&emsp;(Make data sets with png pictures )
 
   ​	-forward.py&emsp;(Forward propagation)
 
