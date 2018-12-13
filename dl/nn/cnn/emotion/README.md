@@ -22,9 +22,11 @@
 
 + Jaffe Database 
 
-  ​	[click here to download database](http://www.kasrl.org/jaffe.html)
-  	The database contains 213 (resolution of each image: 256 pixels × 256 pixels) Japanese women's face, each image has an original expression definition. There are 10 people in the expression library, each with 7 expressions (neutral face, happy, sad, surprised, angry, disgusted, fear)
-  	I used the first 200 images for model training and tested with the last 13 images.
+  &emsp;[click here to download database](http://www.kasrl.org/jaffe.html) &ensp;
+
+  &emsp; The database contains 213 (resolution of each image: 256 pixels × 256 pixels) Japanese women's face, each image has an original expression definition. There are 10 people in the expression library, each with 7 expressions (neutral face, happy, sad, surprised, angry, disgusted, fear,use interger number of 0-6 to express)
+
+  &emsp;I used the first 200 images for model training and tested with the last 13 images.
 
 + Environment and main Tools
 
