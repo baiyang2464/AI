@@ -6,19 +6,19 @@
 
   ​	-[getCsv.py](./getCsv.py)&emsp;(Make data sets with png pictures )
 
-  ​	-forward.py&emsp;(Forward propagation)
+  ​	-[forward.py](./forward.py)&emsp;(Forward propagation)
 
-  ​	-backward.py&emsp;(Backward propagation)
+  ​	-[backward.py](./backward.py)&emsp;(Backward propagation)
 
-  ​	-test.py&emsp;(testing and get accuracy)
+  ​	-[test.py](./test.py)&emsp;(testing and get accuracy)
 
   ​	-face.csv&emsp;(derived from getCsv.py)
 
   ​	-**model**&emsp; (Directory of training model)
 
-  ​	-**classifier**&emsp;(Directory of face detector of openVC)
+  ​	-**classifier**&emsp;(Directory of face detector of openVC,)
 
-  ​	-**jaffe**&emsp;(Directory of source pictures)
+  ​	-**jaffe**&emsp;(Directory of source pictures,you should download it first)
 
 + Jaffe Database Download
 
