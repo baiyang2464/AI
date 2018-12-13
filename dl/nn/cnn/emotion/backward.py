@@ -63,7 +63,7 @@ def backward():
                                                                         #1是表示返回一行中最大的元素的下标,y的一行有6个0和一个1
     cross_entropy = -tf.reduce_sum(y*tf.log(pred))
     train_step = tf.train.AdamOptimizer(1e-4).minimize(cross_entropy,global_step = global_step)#使用AdamOptimizer优化器，根据交叉熵进行反向传播训练
-    lossuracy = tf.reduce_mean(tf.cast(correct_pred, "float"))           #上面一句返回的是bool值，cast可以转换类型，此次将bool转换成float，即是0或1,
+    lossuracy = tf.reduce_mean(tf.cast(correct_pred, "float"))          #上面一句返回的是bool值，cast可以转换类型，此次将bool转换成float，即是0或1,
                                                                         #reduce_mean()可以计算一个列表中数据的均值
     saver = tf.train.Saver(max_to_keep=1) 
     #在会话中进行训练

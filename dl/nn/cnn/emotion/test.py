@@ -19,9 +19,6 @@ REGULARIZER = 0.0001
 train_num = 200
 test_num = 13
 
-#训练批次数
-#test_batch_num = test_num / batch_size              #13/20
-
 data = pd.read_csv(r'./face.csv', dtype='a')        #read_csv返回二维标记数组，列可以是不同数据类型，所读对象元素之间通常用逗号隔开
 label = np.array(data['emotion'])                   #用data中emotion列生成一个数组
 img_data = np.array(data['pixels'])                 #用data中的pixels生成一个多维数组
@@ -52,19 +49,19 @@ def test():
         train_x=Face_data [0: train_num, :]
         train_y= Face_label [0: train_num, :]
         '''
-        global_step = tf.Variable(0, trainable = False)                     #定义变量global_step，并把它的属性设置为不可训练  
+        global_step = tf.Variable(0, trainable = False)                             #定义变量global_step，并把它的属性设置为不可训练  
 
         # 评估模型
-        correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))          #比较预测值和标签值，argmax返回最大的那个数值所在的下标。 
-        accuracy = tf.reduce_mean(tf.cast(correct_pred, "float"))           #上面一句返回的是bool值，cast可以转换类型，此次将bool转换成float，即是0或1,
-                                                                            #reduce_mean()可以计算一个列表中数据的均值
+        correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))                  #比较预测值和标签值，argmax返回最大的那个数值所在的下标。 
+        accuracy = tf.reduce_mean(tf.cast(correct_pred, "float"))                   #上面一句返回的是bool值，cast可以转换类型，此次将bool转换成float，即是0或1,
+                                                                                    #reduce_mean()可以计算一个列表中数据的均值
         saver = tf.train.Saver(max_to_keep=1) 
         #在会话中进行训练
         while True:
             with tf.Session() as sess:
                 #sess.run(tf.initialize_all_variables())#初始化
-                ckpt = tf.train.get_checkpoint_state("./model")             # 从"./model"中加载训练好的模型
-                if ckpt and ckpt.model_checkpoint_path: 		    # 若ckpt和保存的模型在指定路径中存在，则将保存的神经网络模型加载到当前会话中
+                ckpt = tf.train.get_checkpoint_state("./model")                     # 从"./model"中加载训练好的模型
+                if ckpt and ckpt.model_checkpoint_path: 		            # 若ckpt和保存的模型在指定路径中存在，则将保存的神经网络模型加载到当前会话中
                     saver.restore(sess, ckpt.model_checkpoint_path)
                     global_step = ckpt.model_checkpoint_path.split('/')[-1].split('-')[-1]
                     coord = tf.train.Coordinator()				    #4开启线程协调器
