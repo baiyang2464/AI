@@ -4,12 +4,12 @@
 
 + 代码
 
-  [](./perception.py)
+  [](https://github.com/baiyang2464/AI/blob/master/ml/PLA/perception.ipynb)
 
-  [](./perception.ipynb)
+  [](https://github.com/baiyang2464/AI/blob/master/ml/PLA/perception.py)
 
 + 数据
 
-[](./data.csv)
+[](https://github.com/baiyang2464/AI/blob/master/ml/PLA/data.csv)
 
 数据是包含100个样本点的二分类数据
