@@ -41,6 +41,7 @@ class CT:
                     j_best = j 
                     s_best = s
         return j_best,s_best
+	#寻找众数的函数
     def findMode(self,nums):
         nums=np.sort(nums)
         maxlen = 0
