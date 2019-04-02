@@ -9,15 +9,9 @@
   ![](https://images0.cnblogs.com/blog2015/692470/201507/231238156787111.png)
 
 + CART分类树算法流程
-
-![](https://images0.cnblogs.com/blog2015/692470/201507/231318355061741.png)
-
-![](https://images0.cnblogs.com/blog2015/692470/201507/231318457406246.png)
-
-![](https://images0.cnblogs.com/blog2015/692470/201507/231319073348516.png)
-
-
-
+  ![](https://images0.cnblogs.com/blog2015/692470/201507/231318355061741.png)
+  ![](https://images0.cnblogs.com/blog2015/692470/201507/231318457406246.png)
+  ![](https://images0.cnblogs.com/blog2015/692470/201507/231319073348516.png)
 
 + 代码
 
