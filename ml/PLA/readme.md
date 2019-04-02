@@ -14,7 +14,7 @@
 
   [perception.py](https://github.com/baiyang2464/AI/blob/master/ml/PLA/perception.py) 
 
-  以上则一即可
+  以上代码择一即可
 
 + 数据
 
