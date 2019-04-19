@@ -9,7 +9,6 @@ iris = pd.read_csv("./iris.csv")
 data=iris.sample(frac=1).reset_index(drop=True) #打乱数据
 catogory = {'setosa':0,'versicolor':1,'virginica':2} #将分类做映射，学习器只能输入数值类型的数据
 data['Species'] = data['Species'].map(catogory)
-data.head()
 
 #knn算法实现
 #距离度量——计算欧式距离
