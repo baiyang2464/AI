@@ -22,7 +22,7 @@
 
     + ipynb文件:jupyter notebook
     + py文件：python3
-    + 工具包：sys、numpy、pandas
+    + 工具包：matplot、numpy、pandas
 
 
 + 数据
