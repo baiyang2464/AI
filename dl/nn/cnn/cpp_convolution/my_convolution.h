@@ -16,7 +16,7 @@ private:
 	int bios_x, bios_y;//记录偏移量
 
 	void compute_sum_of_product(int i, int j, int chan, cv::Mat &complete_image, cv::Mat & dst);//计算每一个像素的掩模乘积之和
-	void padling(const cv::Mat &image, cv::Mat &dst);//将原图像转换成边框补全的图像
+	void padling(const cv::Mat &image, cv::Mat &dst);//0填充操作，使用的等宽卷积
 };
 
 #endif // MY_CONVOLUTION

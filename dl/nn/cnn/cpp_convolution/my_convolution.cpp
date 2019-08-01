@@ -87,7 +87,7 @@ void My_Convolution::compute_sum_of_product(int i, int j, int chan, Mat &complet
 
 }
 
-//±ß¿òÏñËØ²¹È«
+//0Ìî³ä²Ù×÷
 void My_Convolution::padling(const Mat &image, Mat &dst) {
 	if (!kernal_loaded) {
 		cout << "kernal is empty!" << endl;
