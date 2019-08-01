@@ -2,7 +2,7 @@
 
 + Deep Learning
   + cnn
-    + [C++实现卷积操作](<https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/readme.md>)
+    + [C++实现卷积操作](<https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/cpp_convolution>)
     + [一些卷积网络小项目](<https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn>)
       + [emotion人脸表情识别](https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/emotion)
       + [cifar人脸识别](https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/cifar)
