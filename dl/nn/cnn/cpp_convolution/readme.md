@@ -1,7 +1,7 @@
 **0.卷积作用的源图片**
 
 <p align="center">
-	<img src=./pictures/pic2.jpg alt="Sample"  width="900">
+	<img src=./pictures/pic2.jpg alt="Sample"  width="700">
 	<p align="center">
 		<em> </em>
 	</p>
