@@ -8,7 +8,7 @@
       + [cifar人脸识别](https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/cifar)
       + [mnist手写数字识别](https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/mnist)
       + [ner词性标注](https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/ner)
-+ Machine Learning
++ Machine Learning基础模型实现
   + [CART](<https://github.com/baiyang2464/AI/tree/master/ml/CART>)
   + [k-means](<https://github.com/baiyang2464/AI/tree/master/ml/k-means>)
   + [knn](<https://github.com/baiyang2464/AI/tree/master/ml/knn>)
