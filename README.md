@@ -1,5 +1,11 @@
-+ This repository is used to learn traditional machine learning methods and neural networks.
+<p align="center">
+	<img src=./convolution.png alt="Sample"  width="900">
+	<p align="center">
+		<em>一幅图片在不同卷积核作用下的卷积结果</em>
+	</p>
+</p>
 
++ This repository is used to learn traditional machine learning methods and neural networks.
 + Deep Learning
   + cnn
     + [C++实现卷积操作](<https://github.com/baiyang2464/AI/tree/master/dl/nn/cnn/cpp_convolution>)
