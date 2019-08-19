@@ -1,7 +1,7 @@
 **0.卷积作用的源图片**
 
 <p align="center">
-	<img src=./pictures/pic2.jpg alt="Sample"  width="700">
+	<img src=./pictures/pic2.jpg alt="Sample"  width="500">
 	<p align="center">
 		<em> </em>
 	</p>
@@ -19,7 +19,14 @@
 
 **2.二维卷积的简易实现**
 
-![img](https://upload-images.jianshu.io/upload_images/6802183-f80f54f6e05038c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/277/format/webp)
+<p align="center">
+	<img src=./pictures/081901.png alt="Sample"  width="500">
+	<p align="center">
+		<em> </em>
+	</p>
+</p>
+
+U、V——卷积核的宽、高
 
 用4个for循环就可以完成卷积操作
 
