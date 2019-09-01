@@ -72,7 +72,7 @@ int main()
 	int kerH=3,kerW=3;
 	int outH = picH-kerH+1;
 	int outW = picW-kerW+1;
-	vector<vector<int> >res(picW-kerW+1,vector<int>(picH-kerH+1,0));
+	vector<vector<int> >res(picW-kerW+1,vector<int>(picH-kerH+1,0));#不作任何填充，步长为1
 	conv2d(picture,kernel,res,picH,picW,kerH,kerW);
 	for(int u=0;u<outW;++u)
 	{
